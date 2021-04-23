@@ -1,0 +1,16 @@
+.no-images {
+    width: 80%;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    &__emoticon {
+        font-size: clamp(5rem, 20vw, 10rem);
+        color: rgba(153, 49, 238, 0.466);
+    }
+    &__message {
+        margin-top: 20px;
+        font-size: 1.1rem;
+        color: rgba(0, 0, 0, 0.829);
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,30 @@
+.chip {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: gainsboro;
+  border-radius: 0.3rem;
+  margin: 0px 2.5px 5px 2.5px;
+  padding: 5px 5px;
+}
+
+.chip__value {
+  word-wrap: break-word;
+}
+
+.chip__save, .chip__delete {
+  margin-left: 5px;
+  font-size: 1.1rem;
+}
+
+.chip__save:hover, .chip__delete:hover {
+  cursor: pointer;
+}
+
+.chip__save {
+  color: red;
+}
+/*# sourceMappingURL=Chip.css.map */

@@ -1,0 +1,22 @@
+.chip {
+    display: inline-flex;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 0.3rem;
+    margin: 0px 2.5px 5px 2.5px;
+    padding: 5px 5px;
+    &__value{
+        word-wrap: break-word;
+    }
+    &__save, &__delete{
+        margin-left: 5px;
+        font-size: 1.1rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__save{
+        color:red;
+    }
+
+}

@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(178, 118, 228);
+    height: 70px;
+    margin-top: 200px;
+    &__text {
+        text-transform: capitalize;
+        font-weight: bold;
+        opacity: 0.9;
+        vertical-align: bottom;
+    }
+    &__icon {
+        color: rgb(255, 0, 0);
+        margin-left: 5px;
+    }
+}
