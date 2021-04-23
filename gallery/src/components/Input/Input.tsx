@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useChipsContext } from "../../context/ChipsContext";
 
 export const Input: React.FC = () => {
@@ -23,14 +23,18 @@ export const Input: React.FC = () => {
         }
     }
 
+ 
+
     return (
-        <input
-            className="search__input"
-            value={input}
-            type='text'
-            onChange={e => ""}
-            placeholder="Enter keywords..."
-            onKeyDown={handleInput}
-        />
+        <>
+            <input
+                className="search__input"
+                value={input}
+                type='text'
+                onChange={_=>''}
+                placeholder="Separate keywords by space..."
+                onKeyDown={handleInput}
+            />
+        </>
     )
 }
