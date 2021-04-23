@@ -44,6 +44,22 @@
   padding: 0px 8px;
 }
 
+.header .search__input::-webkit-input-placeholder {
+  font-size: clamp(0.7rem, 4vw, 1rem);
+}
+
+.header .search__input:-ms-input-placeholder {
+  font-size: clamp(0.7rem, 4vw, 1rem);
+}
+
+.header .search__input::-ms-input-placeholder {
+  font-size: clamp(0.7rem, 4vw, 1rem);
+}
+
+.header .search__input::placeholder {
+  font-size: clamp(0.7rem, 4vw, 1rem);
+}
+
 .header .search__btn-submit {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50px;

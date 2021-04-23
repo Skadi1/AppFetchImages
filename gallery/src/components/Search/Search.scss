@@ -27,6 +27,11 @@
             height: 37.5px;
             font-size: 1.3rem;
             padding: 0px 8px;
+            &::placeholder{
+                font-size: clamp(0.7rem, 4vw, 1rem);
+                // color:red;
+            }
+        
         }
     }
     .search__btn-submit {

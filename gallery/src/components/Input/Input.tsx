@@ -29,6 +29,7 @@ export const Input: React.FC = () => {
             value={input}
             type='text'
             onChange={e => ""}
+            placeholder="Enter keywords..."
             onKeyDown={handleInput}
         />
     )
