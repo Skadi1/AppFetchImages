@@ -22,7 +22,7 @@ export const useImages = () => {
             })
         const data = await res.json()
         const formatedUrls: UrlsT[] = data.results.map((image: any) => {
-            return image.urls.thumb
+            return image.urls.small
         })
 
         setUrls(formatedUrls)
